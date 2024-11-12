@@ -1,33 +1,33 @@
 import { FaRegClock } from "react-icons/fa";
 import { HiOutlineTicket } from "react-icons/hi";
 
-const Card = () => {
+const Card = ({ title, subtitle, image, duration, ticketCount, price }) => {
     return (
         <div className="max-w-full sm:max-w-xs bg-white shadow-lg rounded-lg overflow-hidden mx-auto">
             <img 
-                src="https://iili.io/2uHqhoQ.png" 
+                src={image} 
                 alt="Rome Bus Tour" 
                 className="w-full h-48 object-cover"
             />
             <div className="p-4">
                 <div className="flex justify-between items-center mb-2">
-                    <p className="text-xs sm:text-sm text-gray-500">Hop-On Hop-Off Tour</p>
+                    <p className="text-xs sm:text-sm text-gray-500">{subtitle}</p>
                     <span className="flex items-center text-gray-500">
                         <FaRegClock className="w-3 h-3 sm:w-4 sm:h-4" />
-                        <span className="ml-1 text-xs sm:text-sm">24 hours</span>
+                        <span className="ml-1 text-xs sm:text-sm">{duration}</span>
                     </span>
                 </div>
                 <h2 className="text-sm sm:text-lg font-semibold text-gray-800 leading-snug">
-                    Rome Bus Ticket: Discover Package
+                    {title}
                 </h2>
                 
                 <span className="text-gray-500 flex items-center gap-2 mt-2 text-xs sm:text-sm">
-                    <HiOutlineTicket className="w-4 h-4 sm:w-5 sm:h-5" /> #2
+                    <HiOutlineTicket className="w-4 h-4 sm:w-5 sm:h-5" /> #{ticketCount}
                 </span>
                 
                 <div className="flex items-center justify-between mt-3">
                     <p className="text-sm sm:text-lg font-semibold">
-                        Start From €28 <span className="text-xs sm:text-sm font-normal">(Per person)</span>
+                        Start From €{price} <span className="text-xs sm:text-sm font-normal">(Per person)</span>
                     </p>
                 </div>
                 
