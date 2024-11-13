@@ -9,7 +9,7 @@ const Hero = () => {
             style={{ backgroundImage: "url('https://iili.io/2Tpagvp.md.png') ", height: "100%"}}
         >
             <div className="text-white  px-6 sm:px-10 md:px-16 h-full flex  flex-col justify-center text-center md:text-start">
-               <div className="mt-20 mb-6"> <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-semibold mb-3 md:mb-4 leading-tight ">
+               <div className="mt-32 md:mt-40 mb-6"> <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-semibold mb-3 md:mb-4 leading-tight ">
                     Experience the City Tour <br className="hidden md:block"/>- Your Ticket to Freedom <br className="hidden lg:block"/> & Adventure
                 </h1>
                 <h5 className="text-base sm:text-lg md:text-xl lg:text-2xl leading-relaxed ">

@@ -11,7 +11,8 @@ import Services from "./Components/Services/Services";
 
 const App = () => {
   return (
-    <div className="container mx-auto">
+   <div>
+     <div className="container mx-auto">
       <Navbar></Navbar>
       <Hero></Hero>
       <div className="block md:hidden">
@@ -25,10 +26,12 @@ const App = () => {
       <Services></Services>
       <Banner></Banner>
       <Contact></Contact>
-      <Footer></Footer>
+      
 
 
     </div>
+    <Footer></Footer>
+   </div>
   );
 };
 

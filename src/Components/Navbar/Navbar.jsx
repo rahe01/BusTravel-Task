@@ -24,16 +24,10 @@ const Navbar = () => {
                         </div>
                         <ul
                             tabIndex={0}
-                            className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-                            <li><a>Item 1</a></li>
-                            <li>
-                                <a>Parent</a>
-                                <ul className="p-2">
-                                    <li><a>Submenu 1</a></li>
-                                    <li><a>Submenu 2</a></li>
-                                </ul>
-                            </li>
-                            <li><a>Item 3</a></li>
+                            className="menu menu-sm dropdown-content  bg-white text-black rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                              <li><a><LuHome /> Home</a></li>
+                        <li><a href=""><PiTicketBold /> Manage Bookings</a></li>
+                        <li><a><MdOutlineLocationOn /> Agent Point</a></li>
                         </ul>
                     </div>
                 </div>
@@ -48,7 +42,7 @@ const Navbar = () => {
                         <li><a href=""><PiTicketBold /> Manage Bookings</a></li>
                         <li><a><MdOutlineLocationOn /> Agent Point</a></li>
                     </ul>
-                    <button className="bg-[#FAD502] px-4 py-2 rounded-lg text-red-950 text-lg font-medium">
+                    <button className="bg-[#FAD502] px-4 py-2  rounded-lg text-red-950 text-lg font-medium">
                         Login
                     </button>
                 </div>

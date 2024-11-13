@@ -8,10 +8,10 @@ const Ticket = () => {
                 {/* Select Bus Service */}
                 <div className="flex flex-col w-full lg:w-auto">
                     <label className="text-base md:text-lg font-medium mb-1">Select Bus Service</label>
-                    <select className="w-full md:w-44 lg:w-36 px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-red-600">
+                    <select className="w-full md:w-60 px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-red-600">
                         <option disabled selected>Pick one</option>
-                        <option>Star Wars</option>
-                        <option>Harry Potter</option>
+                        <option>Big Bus</option>
+                        <option>Small Bus</option>
                         <option>Lord of the Rings</option>
                         <option>Planet of the Apes</option>
                         <option>Star Trek</option>

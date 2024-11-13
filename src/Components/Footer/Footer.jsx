@@ -68,7 +68,7 @@ const Footer = () => {
                 {/* Social Media Icons */}
                 <div className="flex space-x-4 text-lg">
                     <a href="#" className="hover:text-gray-400"><i className="fab fa-facebook-f"></i></a>
-                    <a href="#" className="hover:text-gray-400"><i className="fab fa-twitter"></i></a>
+                    <a href="#" className="hover:text-gray-400"><i className="fab fa-youtube"></i></a>
                     <a href="#" className="hover:text-gray-400"><i className="fab fa-instagram"></i></a>
                 </div>
             </div>
